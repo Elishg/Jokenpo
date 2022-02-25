@@ -60,7 +60,7 @@ public class MainActivity extends Activity {
     }
 
     private void geramao2() {
-        int escolha2 = (int) (Math.random() * 3);
+        escolha2 = (int) (Math.random() * 3);
 
         if (escolha2 == 0) {
             m2.setImageResource(R.drawable.tesoura);
